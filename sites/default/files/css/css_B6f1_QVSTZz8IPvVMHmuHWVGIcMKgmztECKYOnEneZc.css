@@ -1,0 +1,404 @@
+/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+
+.uscgov-root,
+.editor-styles-wrapper,
+.interface-interface-skeleton__sidebar {
+    --color-primitive-neutral-white: white;
+    --color-primitive-neutral-base-light: #FEFEFE;
+    --color-primitive-neutral-base-dark: #080A0D;
+    --color-primitive-neutral-gray-background: #F9FAFB;
+    --color-primitive-neutral-gray-surface-variant: #F8F9FF;
+    --color-primitive-neutral-gray-background-variant: #F4F6FB;
+    --color-primitive-neutral-gray-surface-variant-dark: #E4E4E4;
+    --color-primitive-neutral-gray-muted-light: #BEC2CC;
+    --color-primitive-neutral-gray-muted-dark: #8C91A0;
+    --color-primitive-neutral-gray-medium: #727583;
+    --color-primitive-neutral-gray-base-secondary-dark: #525661;
+    --color-primitive-theme-primary-lighter: #E6F1FA;
+    --color-primitive-theme-primary-light: #73A4CF;
+    --color-primitive-theme-primary-primary: #0057A3;
+    --color-primitive-theme-primary-dark: #01417F;
+    --color-primitive-theme-primary-darker: #002D5A;
+    --color-primitive-theme-primary-darkest: #002045;
+    --color-primitive-theme-secondary-gold-lighter: #FCF6E7;
+    --color-primitive-theme-secondary-gold-light: #EFD388;
+    --color-primitive-theme-secondary-gold-primary: #DFA611;
+    --color-primitive-theme-secondary-gold-dark: #A07510;
+    --color-primitive-theme-secondary-gold-darker: #725214;
+    --color-primitive-theme-secondary-gold-darkest: #433205;
+    --color-primitive-theme-secondary-gray-lighter: #F1F1F3;
+    --color-primitive-theme-secondary-gray-light: #AAACB5;
+    --color-primitive-theme-secondary-gray-primary: #727583;
+    --color-primitive-theme-secondary-gray-dark: #44464F;
+    --color-primitive-theme-secondary-gray-darker: #222327;
+    --color-primitive-theme-secondary-gray-darkest: #0B0C0D;
+    --color-primitive-theme-accent-red-lighter: #DAB4A9;
+    --color-primitive-theme-accent-red-light: #C76F57;
+    --color-primitive-theme-accent-red-primary: #A34329;
+    --color-primitive-theme-accent-red-dark: #722F1D;
+    --color-primitive-theme-accent-red-darker: #522215;
+    --color-primitive-theme-accent-green-lighter: #C9D6B3;
+    --color-primitive-theme-accent-green-light: #819E4D;
+    --color-primitive-theme-accent-green-primary: #4B7500;
+    --color-primitive-theme-accent-green-dark: #2D4600;
+    --color-primitive-theme-accent-green-darker: #1E2F00;
+    --color-primitive-theme-accent-gold-lighter: var(--color-primitive-theme-secondary-gold-lighter);
+    --color-primitive-theme-accent-gold-light: var(--color-primitive-theme-secondary-gold-light);
+    --color-primitive-theme-accent-gold-primary: var(--color-primitive-theme-secondary-gold-primary);
+    --color-primitive-theme-accent-gold-dark: #A07510;
+    --color-primitive-theme-accent-gold-darker: var(--color-primitive-theme-secondary-gold-darker);
+    --color-token-base-background-surface: var(--color-primitive-neutral-base-light);
+    --color-token-base-background-surface-variant: var(--color-primitive-neutral-gray-surface-variant);
+    --color-token-base-background-background-variant: var(--color-primitive-neutral-gray-background-variant);
+    --color-token-base-background-background: var(--color-primitive-neutral-gray-background);
+    --color-token-base-background-surface-variant-dark: var(--color-primitive-neutral-gray-surface-variant-dark);
+    --color-token-base-border-muted-dark: var(--color-primitive-neutral-gray-muted-dark);
+    --color-token-base-border-base-secondary-dark: var(--color-primitive-neutral-gray-base-secondary-dark);
+    --color-token-base-border-muted-light: var(--color-primitive-neutral-gray-muted-light);
+    --color-token-base-text-icon-base-dark: var(--color-token-base-theme-base-dark);
+    --color-token-base-text-icon-base-secondary-dark: var(--color-primitive-neutral-gray-base-secondary-dark);
+    --color-token-base-text-icon-muted-dark: var(--color-primitive-neutral-gray-muted-dark);
+    --color-token-base-text-icon-muted-light: var(--color-primitive-neutral-gray-muted-light);
+    --color-token-base-text-icon-base-light: var(--color-primitive-neutral-base-light);
+    --color-token-base-theme-base-light: #FEFEFE;
+    --color-token-base-theme-base-dark: #080A0D;
+    --color-token-primary-link-icon-link: var(--color-token-primary-blue-primary);
+    --color-token-primary-link-icon-icon: var(--color-token-primary-blue-dark);
+    --color-token-primary-link-icon-link-visited: ;
+    --color-token-primary-link-icon-link-hover: var(--color-token-primary-blue-dark);
+    --color-token-primary-blue-darkest: var(--color-primitive-theme-primary-darkest);
+    --color-token-primary-blue-darker: var(--color-primitive-theme-primary-darker);
+    --color-token-primary-blue-dark: var(--color-primitive-theme-primary-dark);
+    --color-token-primary-blue-primary: var(--color-primitive-theme-primary-primary);
+    --color-token-primary-blue-light: var(--color-primitive-theme-primary-light);
+    --color-token-primary-blue-lighter: var(--color-primitive-theme-primary-lighter);
+    --color-token-secondary-gold-lighter: var(--color-primitive-theme-secondary-gold-lighter);
+    --color-token-secondary-gold-light: var(--color-primitive-theme-secondary-gold-light);
+    --color-token-secondary-gold-primary: var(--color-primitive-theme-secondary-gold-primary);
+    --color-token-secondary-gold-dark: var(--color-primitive-theme-secondary-gold-dark);
+    --color-token-secondary-gold-darker: var(--color-primitive-theme-secondary-gold-darker);
+    --color-token-secondary-gold-darkest: var(--color-primitive-theme-secondary-gold-darkest);
+    --color-token-secondary-gray-lighter: var(--color-primitive-theme-secondary-gray-lighter);
+    --color-token-secondary-gray-light: var(--color-primitive-theme-secondary-gray-light);
+    --color-token-secondary-gray-primary: var(--color-primitive-theme-secondary-gray-primary);
+    --color-token-secondary-gray-dark: var(--color-primitive-theme-secondary-gray-dark);
+    --color-token-secondary-gray-darker: var(--color-primitive-theme-secondary-gray-darker);
+    --color-token-secondary-gray-darkest: var(--color-primitive-theme-secondary-gray-darkest);
+}
+
+.uscgov-root,
+.editor-styles-wrapper,
+.interface-interface-skeleton__sidebar {
+    --color-primary-button-text: var(--color-primitive-neutral-base-light);
+    --color-primary-primary: var(--color-primitive-theme-primary-primary);
+    --color-primary-light: var(--color-primitive-theme-primary-light);
+    --color-primary-lighter: var(--color-primitive-theme-primary-lighter);
+    --color-primary-dark: var(--color-primitive-theme-primary-dark);
+    --color-primary-darker: var(--color-primitive-theme-primary-darker);
+    --color-secondary-button-text: var(--color-primitive-neutral-base-dark);
+    --color-secondary-primary: var(--color-primitive-theme-secondary-gold-primary);
+    --color-secondary-light: var(--color-primitive-theme-secondary-gold-light);
+    --color-secondary-lighter: var(--color-primitive-theme-secondary-gold-lighter);
+    --color-secondary-dark: var(--color-primitive-theme-secondary-gold-dark);
+    --color-secondary-darker: var(--color-primitive-theme-secondary-gold-darker);
+    --color-accent-button-text: var(--color-primitive-neutral-base-light);
+    --color-accent-primary: var(--color-primitive-theme-accent-red-primary);
+    --color-accent-light: var(--color-primitive-theme-accent-red-light);
+    --color-accent-lighter: var(--color-primitive-theme-accent-red-lighter);
+    --color-accent-dark: var(--color-primitive-theme-accent-red-dark);
+    --color-accent-darker: var(--color-primitive-theme-accent-red-darker);
+    --surface-primary: var(--color-primitive-theme-primary-primary);
+    --text-on-surface-primary: var(--color-primitive-neutral-base-light);
+    --surface-primary-light: var(--color-primitive-theme-primary-light);
+    --text-on-surface-primary-light: var(--color-primitive-neutral-base-dark);
+    --surface-primary-dark: var(--color-primitive-theme-primary-dark);
+    --text-on-surface-primary-dark: var(--color-primitive-neutral-base-light);
+    --surface-primary-darker: var(--color-primitive-theme-primary-darker);
+    --text-on-surface-primary-darker: var(--color-primitive-neutral-base-light);
+    --text-on-surface-primary-darker-dark: var(--color-primitive-neutral-gray-muted-light);
+    --text-on-surface-primary-darker-alt: #A981DD;
+    --surface-primary-lighter: var(--color-primitive-theme-primary-lighter);
+    --text-on-surface-primary-lighter: var(--color-primitive-neutral-base-dark);
+    --text-on-surface-base-lighter--light: var(--color-token-base-text-icon-base-secondary-dark);
+    --text-on-surface-base-lighter--primary: var(--color-primitive-theme-primary-dark);
+    --surface-secondary-dark: var(--color-primitive-theme-secondary-gold-dark) // #A07510;--text-on-surface-secondary-dark:var(--color-primitive-neutral-base-light);--surface-secondary-lighter:var(--color-token-secondary-gold-lighter);--text-on-surface-secondary-lighter:var(--color-primitive-neutral-base-dark);--text-secondary-darker:var(--color-primitive-theme-secondary-gold-darker);--surface-body:var(--color-primitive-neutral-base-light);--text-on-surface-body:var(--color-primitive-neutral-gray-base-secondary-dark);--surface-base-lighter:var(--color-primitive-neutral-gray-background);--text-on-surface-base-lighter:var(--color-primitive-neutral-base-dark);--text-on-surface-base-lighter-light:var(--color-primitive-neutral-gray-base-secondary-dark);--surface-base-light:var(--color-primitive-neutral-gray-surface-variant);--text-on-surface-base-light:var(--color-primitive-neutral-gray-base-secondary-dark);--text-on-surface-base-light-dark:var(--color-primitive-neutral-base-dark);--surface-base-lightest:var(--color-token-base-background-background-variant);--text-on-surface-base-lightest:var(--color-token-base-text-icon-base-secondary-dark);--text-on-surface-base-lightest--dark:var(--color-primitive-neutral-base-dark);--surface-base-medium:var(--color-primitive-neutral-gray-surface-variant-dark);--text-on-surface-base-medium:var(--color-primitive-neutral-gray-base-secondary-dark);--text-on-surface-base-medium-dark:var(--color-primitive-neutral-base-dark);--surface-base-muted-light:var(--color-primitive-neutral-gray-muted-light);--text-on-surface-base-muted-light:var(--color-primitive-neutral-base-dark);--text-link:var(--color-primitive-theme-primary-primary);--text-link-dark:var(--color-primitive-theme-primary-dark);--text-link-darkest:var(--color-primitive-theme-primary-darkest);--text-link-visited:#54278F;--surface-form:var(--color-primitive-neutral-white);--surface-button:var(--surface-primary);--text-on-surface-button:var(--text-on-surface-primary);--surface-button-accent:var(--accent);--text-on-surface-button-accent:var(--color-primitive-neutral-base-light);--surface-button-dark:var(--color-primitive-theme-primary-dark);--surface-button-darker:var(--color-primitive-theme-primary-darker);--surface-button-secondary:var(--color-primitive-theme-secondary-gold-light);--text-on-surface-button-secondary:var(--color-primitive-theme-primary-darkest);--border-primary:var(--color-primitive-theme-primary-primary);--border-primary-light:var(--color-primitive-theme-primary-light);--border-primary-dark:var(--color-primitive-theme-primary-dark);--border-primary-darker:var(--color-primitive-theme-primary-darker);--border-muted-dark:var(--color-token-base-border-muted-dark);--border-muted-light:var(--color-primitive-neutral-gray-muted-light);--border-secondary:var(--color-primitive-theme-secondary-gold-primary);--border-secondary-dark:var(--color-primitive-theme-secondary-gold-dark);--border-form:var(--border-muted-dark);--border-secondary-dark:var(--color-primitive-theme-secondary-gold-dark);--accent:#A34329;--accent-dark:#722F1D;--accent-darkest:#522215;--focus-ring:#2491ff;}
+    .uscgov-root, .editor-styles-wrapper, .interface-interface-skeleton__sidebar {
+        --button-color-text:var(--color-primary-button-text);
+        --button-color-text-hover: var(--color-primitive-neutral-base-light);
+        --button-color-text-active: var(--color-primitive-neutral-base-light);
+        --button-color-surface: var(--color-primary-primary);
+        --button-color-surface-hover: var(--color-primary-dark);
+        --button-color-surface-active: var(--color-primary-darker);
+        --button-color-border: var(--color-primitive-neutral-gray-muted-light);
+        --button-color-border-hover: var(--color-primitive-neutral-gray-muted-light);
+        --button-color-border-active: var(--color-primary-light);
+    }
+    .uscgov-root .usc-button--outline,
+    .editor-styles-wrapper .usc-button--outline,
+    .interface-interface-skeleton__sidebar .usc-button--outline {
+        --button-color-text: var(--color-primary-primary);
+        --button-color-text-hover: var(--color-primary-darker);
+        --button-color-text-active: var(--color-primary-dark);
+        --button-color-surface: var(--color-primitive-neutral-base-light);
+        --button-color-surface-hover: var(--color-primary-lighter);
+        --button-color-surface-active: var(--color-primary-lighter);
+        --button-color-border: var(--color-primary-primary);
+        --button-color-border-hover: var(--color-primary-darker);
+        --button-color-border-active: var(--color-primary-light);
+    }
+    .uscgov-root .usc-button--secondary,
+    .editor-styles-wrapper .usc-button--secondary,
+    .interface-interface-skeleton__sidebar .usc-button--secondary {
+        --button-color-text: var(--color-secondary-button-text);
+        --button-color-surface: var(--color-secondary-primary);
+        --button-color-surface-hover: var(--color-secondary-dark);
+        --button-color-surface-active: var(--color-secondary-darker);
+        --button-color-border-active: var(--color-secondary-light);
+    }
+    .uscgov-root .usc-button--secondary.usc-button--outline,
+    .editor-styles-wrapper .usc-button--secondary.usc-button--outline,
+    .interface-interface-skeleton__sidebar .usc-button--secondary.usc-button--outline {
+        --button-color-text: var(--color-secondary-primary);
+        --button-color-text-hover: var(--color-secondary-darker);
+        --button-color-text-active: var(--color-secondary-dark);
+        --button-color-surface: var(--color-primitive-neutral-base-light);
+        --button-color-surface-hover: var(--color-secondary-lighter);
+        --button-color-surface-active: var(--color-secondary-lighter);
+        --button-color-border: var(--color-secondary-primary);
+        --button-color-border-hover: var(--color-secondary-darker);
+        --button-color-border-active: var(--color-secondary-light);
+    }
+    .uscgov-root .usc-button--accent,
+    .editor-styles-wrapper .usc-button--accent,
+    .interface-interface-skeleton__sidebar .usc-button--accent {
+        --button-color-text: var(--color-accent-button-text);
+        --button-color-surface: var(--color-accent-primary);
+        --button-color-surface-hover: var(--color-accent-dark);
+        --button-color-surface-active: var(--color-accent-darker);
+        --button-color-border-active: var(--color-accent-light);
+    }
+    .uscgov-root .usc-button--accent.usc-button--outline,
+    .editor-styles-wrapper .usc-button--accent.usc-button--outline,
+    .interface-interface-skeleton__sidebar .usc-button--accent.usc-button--outline {
+        --button-color-text: var(--color-accent-primary);
+        --button-color-text-hover: var(--color-accent-darker);
+        --button-color-text-active: var(--color-accent-dark);
+        --button-color-surface: var(--color-primitive-neutral-base-light);
+        --button-color-surface-hover: var(--color-accent-lighter);
+        --button-color-surface-active: var(--color-accent-lighter);
+        --button-color-border: var(--color-accent-primary);
+        --button-color-border-hover: var(--color-accent-darker);
+        --button-color-border-active: var(--color-accent-light);
+    }
+    .uscgov-root,
+    .editor-styles-wrapper {
+        --font-sans: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+        --font-serif: source-serif-pro, Georgia, serif;
+        --site-max-width: 1360px;
+        --text-max-width: 650px;
+        --spacing-xs-1: 2px;
+        --spacing-xs-2: 4px;
+        --spacing-xs-3: 6px;
+        --spacing-sm-1: 8px;
+        --spacing-sm-2: 16px;
+        --spacing-sm-3: 24px;
+        --spacing-md-1: 32px;
+        --spacing-md-2: 40px;
+        --spacing-md-3: 48px;
+        --spacing-lg-1: 56px;
+        --spacing-lg-2: 64px;
+        --spacing-lg-3: 72px;
+        --spacing-xl-1: 80px;
+        --spacing-xl-2: 88px;
+        --spacing-xl-3: 96px;
+        --spacing-xl-1: 80px;
+        --spacing-xxl-1: 104px;
+        --spacing-component: var(--spacing-md-1);
+        --spacing-header-top: var(--spacing-md-1);
+        --spacing-header-bottom: var(--spacing-sm-1);
+        --container-inline-spacing: 26px;
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: normal;
+        font-weight: 300;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-300.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-regular.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: normal;
+        font-weight: 700;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-700.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: italic;
+        font-weight: 300;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-300italic.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: italic;
+        font-weight: 400;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-italic.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Roboto Mono Web";
+        font-style: italic;
+        font-weight: 700;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: normal;
+        font-weight: 300;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-light-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: normal;
+        font-weight: 700;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: italic;
+        font-weight: 300;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-lightitalic-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: italic;
+        font-weight: 400;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Source Sans Pro Web";
+        font-style: italic;
+        font-weight: 700;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-sans-pro/sourcesanspro-bolditalic-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "source-serif-pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-serif-pro/sourceserifpro-regular-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "source-serif-pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: fallback;
+        src: url(/themes/custom/uscgov/fonts/source-serif-pro/sourceserifpro-bold-webfont.woff2)format("woff2")
+    }
+    @font-face {
+        font-family: "Helvetica Neue";
+        size-adjust: 92%;
+        src: local("Helvetica Neue")
+    }
+    @font-face {
+        font-family: "Helvetica";
+        size-adjust: 92%;
+        src: local("Helvetica")
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: calc(200px + var(--drupal-displace-offset-top, 0px)) !important;
+    }
+    @media (prefers-reduced-motion:reduce) {
+        html {
+            scroll-behavior: revert;
+        }
+    }
+    body[class] {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        background-color: var(--surface-base-lighter);
+        line-height: 1.15;
+    }
+    a {
+        color: var(--text-link);
+    }
+    a:hover {
+        color: var(--color-primitive-theme-primary-dark);
+    }
+    button {
+        font-family: inherit;
+    }
+    ul {
+        line-height: 1.5;
+    }
+    ol.list-style-type-lower-roman {
+        list-style-type: lower-roman;
+    }
+    ol.list-style-type-upper-roman {
+        list-style-type: upper-roman;
+    }
+    ol.list-style-type-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    figure {
+        margin: 0;
+    }
+    figure img {
+        display: block;
+    }
+    figcaption {
+        margin-top: 8px;
+        color: var(--text-on-surface-base-lighter--light);
+        font-style: italic;
+    }
+    figcaption :first-child {
+        margin-top: 0;
+    }
+    figcaption :last-child {
+        margin-bottom: 0;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    .media--type-remote-video iframe {
+        aspect-ratio: 16/9;
+    }
+    hr {
+        border-color: var(--accent);
+    }
+    audio {
+        width: 100%;
+        margin-block: 24px;
+    }
